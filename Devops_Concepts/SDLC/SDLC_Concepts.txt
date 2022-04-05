@@ -1,0 +1,19 @@
+SDLC:
+
+ - Software Development Life Cycle 
+ - SDLC consists of a detailed plan which explains how to plan, build, and maintain specific software.
+ - This is the workflow which is followed by various IT sector to meet Software development
+ 
+Phases of SDLC:
+ - Planning
+ - Requirement Analysis
+ - Design
+ - Development
+ - Testing
+ - Deployment
+ - Maintainance
+ 
+ 
+ 
+
+ 

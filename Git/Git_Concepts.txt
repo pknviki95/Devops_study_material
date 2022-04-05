@@ -1,0 +1,92 @@
+gitcasts.com   ---> Reference for Git
+git-scm.com    ---> official Website
+
+
+Git :
+ - Open source
+ - Distributed Version Control
+ - It is Used to maintained Source Code in Closed Environmentto 
+ - Speed and Efficient that anyother VCS
+ - Works offline and Can push whenever you are online
+ - Git was desingned to maintain Linux Kernel
+ 
+It stores the Snapshot of Changes as Commit ID (Difference of the file Changes are alone taken in Git as Snapshot)
+ 
+Basic Git Functions and Commands:
+
+1. For Configuring Git with your UID and Password
+
+git config --global user.name "pknviki95"
+git config --global user.email "vikidotcom95@gmail.com"
+
+ - It tells the Git "WHO YOU ARE"
+ - (i.e) whenever the Changes are commited the Git Updates the info based on Changes with your ID.
+ - So the Changes can be Tacked easily.
+ - Once the above Command is executed your ID and password will be updated in .gitconfig file your home directory
+
+pknviki95@DESKTOP-BTT7HO6 MINGW64 ~
+$ cat .gitconfig
+[user]
+        name = pknviki95
+        email = vikidotcom95@gmail.com
+		
+2. for initializing Git repository
+
+git init
+
+ - It initalizes the Git Repository in a given directory.
+ - To perform Git operation we need to first initialize the Git in a working directory 
+
+pknviki95@DESKTOP-BTT7HO6 MINGW64 ~/Desktop/Git_Study
+$ git init
+Initialized empty Git repository in C:/Users/pknviki95/Desktop/Git_Study/.git/
+
+3. git remote
+
+git remote add origin <repo-link>
+git remote -v 
+
+ - It links the remote repository to local git repository
+ - Based on the repository linked to local git repository the push and pull operations are performed
+
+pknviki95@DESKTOP-BTT7HO6 MINGW64 /f/Study_Materials (master)
+$ git remote add origin https://github.com/pknviki95/Study_Material.git
+
+pknviki95@DESKTOP-BTT7HO6 MINGW64 /f/Study_Materials (master)
+$ git remote -v
+origin  https://github.com/pknviki95/Study_Material.git (fetch)
+origin  https://github.com/pknviki95/Study_Material.git (push)
+
+4. git clone
+
+ - It is used to clone the remote repository to your local workspace
+
+pknviki95@pknviki95:~/Desktop/test$ git clone https://github.com/pknviki95/Study_Material.git
+Cloning into 'Study_Material'...
+Username for 'https://github.com': pknviki95
+Password for 'https://pknviki95@github.com': 
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 15 (delta 2), reused 15 (delta 2), pack-reused 0
+Unpacking objects: 100% (15/15), 5.23 MiB | 1.23 MiB/s, done.
+
+5. git config -l
+
+- It list all the configuration for Git
+
+pknviki95@DESKTOP-BTT7HO6 MINGW64 ~
+$ git config -l
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+credential.helper=manager
+user.name=pknviki95
+user.email=vikidotcom95@gmail.com

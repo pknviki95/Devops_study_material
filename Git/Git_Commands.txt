@@ -1,0 +1,27 @@
+1. For Configuring Git with your UID and Password
+
+git config --global user.name "pknviki95"
+git config --global user.email "vikidotcom95@gmail.com"
+
+2. for initializing Git repository
+
+git init
+
+3. Cloning of Remootee repository to local workspace
+
+git clone <repo-link>
+(i.e) git clone https://github.com/pknviki95/Study_Material.git
+
+4. To link the local repository to Remote repository to perform Push and pull operation 
+
+git remote add origin <repo-link>
+(i.e) git remote add origin https://github.com/pknviki95/Study_Material.git
+
+	- It links the local repository to remote repository
+
+git remote -v
+    - It list the remote repositories
+
+5. To know the list of configuration in git
+
+git config -l

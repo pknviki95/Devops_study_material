@@ -1,0 +1,26 @@
+http://localhost:9090  -Jenkins port
+
+Find password : C:\Users\pknviki95\AppData\Local\Jenkins\.jenkins\secrets\initialAdminPassword
+b64369df5c4d427d9841603d7326fb2e
+
+If the Password is not available in above path please find the details at : C:\Program Files\Jenkins\jenkins.err.log
+- It will be Updated here as below
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+b64369df5c4d427d9841603d7326fb2e
+
+
+This may also be found at: C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\secrets\initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Username : pknviki95
+password: pknviki95
