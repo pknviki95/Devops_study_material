@@ -90,3 +90,6 @@ For open source projects, say how it is licensed.
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+
+## SSH key
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDJ8o0oy6RcfHNPQm6U75jKtlBQFArSggYBaxd5fRFFND5a724O7lFJ/STcZ7roWPRqOmB9pTmE4XNY2iN751f6WikIYDikayS+hcFn1OkNK7zUvUU4yhG8E09DbI6xxq/UDLQ+MgblP0zKw+9/ZEEYIdz1nx9bks3HZFejC1akGUSmuakPflaFKC5fVSNbX7qppCpArJQoCDVWLIip/zMjekw9dRpjeRLTdCaYIcsywrZFHtIWq6zmbVtW2Ontr5l+G3OkuFg06cxAmHRyRt5YmmPn6/pS0uUoeVXToBibMBQ27ObcQbniSR5aAtxGvbMp9WTXHqRBAgOIfGAQ/011xk1oUeDfWwoU7BggJQ86PQlpORtebYOSADkS+pP7Rapv5CU0yT96EOrr71pCickkS2stnWZpUZtkz9qDO8uYBVHiw1Er1aGWi+s1t0HGglt9BhubGIxFOQu+uj6bPztJWNCSLl+QyfpyPbz//wROVrR0h8ZyPqOHETrYmewtizc= pknviki95@DESKTOP-BTT7HO6
