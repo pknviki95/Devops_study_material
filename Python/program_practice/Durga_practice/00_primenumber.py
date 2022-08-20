@@ -8,7 +8,7 @@ number=int(input("Enter the number: "))
 is_prime=True
 
 for x in range(2,number):
-    print(x)
+   #121 print(x)
     if number%x==0:
         is_prime=False
         break
