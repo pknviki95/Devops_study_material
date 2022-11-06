@@ -29,6 +29,7 @@ position(2,1)
 
 def position(d,c):
     print("The value d: {} and c: {}".format(d,c))
+    print(type(d),type(c))
 
 
 position(c=1,d=2)
