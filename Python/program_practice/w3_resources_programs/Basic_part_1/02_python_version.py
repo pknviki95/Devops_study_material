@@ -8,4 +8,7 @@
 
 import sys
 
+
 print("Current_python_version:{}".format(sys.version))
+print(sys.version)
+
