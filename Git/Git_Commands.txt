@@ -25,3 +25,7 @@ git remote -v
 5. To know the list of configuration in git
 
 git config -l
+
+6. To check the local reference log done
+
+git reflog
