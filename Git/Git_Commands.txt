@@ -29,3 +29,7 @@ git config -l
 6. To check the local reference log done
 
 git reflog
+
+7. To view the changes done on commit-ID
+
+git show <commit-ID>
